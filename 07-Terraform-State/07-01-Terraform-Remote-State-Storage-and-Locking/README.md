@@ -10,7 +10,7 @@
 
 ## Step-02: Create S3 Bucket
 - Go to Services -> S3 -> Create Bucket
-- **Bucket name:** terraform-stacksimplify
+- **Bucket name:** terraform-tflearning
 - **Region:** US-East (N.Virginia)
 - **Bucket settings for Block Public Access:** leave to defaults
 - **Bucket Versioning:** Enable
@@ -28,7 +28,7 @@
 ```t
 # Terraform Backend Block
   backend "s3" {
-    bucket = "terraform-stacksimplify"
+    bucket = "terraform-tflearning"
     key    = "dev/terraform.tfstate"
     region = "us-east-1"    
   }
@@ -120,7 +120,7 @@ terraform destroy -auto-approve
 ```t
   # Adding Backend as S3 for Remote State Storage with State Locking
   backend "s3" {
-    bucket = "terraform-stacksimplify"
+    bucket = "terraform-tflearning"
     key    = "dev2/terraform.tfstate"
     region = "us-east-1"  
 

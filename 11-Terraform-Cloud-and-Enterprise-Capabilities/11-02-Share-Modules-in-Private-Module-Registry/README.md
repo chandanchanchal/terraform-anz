@@ -35,7 +35,7 @@
 ```t
 # Clone Github Repo
 git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
-git clone https://github.com/stacksimplify/terraform-aws-s3-website.git
+git clone https://github.com/tflearning/terraform-aws-s3-website.git
 ```
 
 ## Step-04: Copy files from terraform-manifests to local repo & Check-In Code
@@ -55,7 +55,7 @@ git commit -am "TF Module Files First Commit"
 git push
 
 # Verify the same on Remote Repository
-https://github.com/stacksimplify/terraform-aws-s3-website.git
+https://github.com/tflearning/terraform-aws-s3-website.git
 ```
 
 ## Step-05: Add VCS Provider as Github using OAuth App in Terraform Cloud 
@@ -77,7 +77,7 @@ https://github.com/stacksimplify/terraform-aws-s3-website.git
 - Client ID: 97e5219d6edd8986817e
 - Client Secret: abcdefghijklmnopqrstuvwxyx
 - Click on **Connect and Continue**
-- Authorize Terraform Cloud (hctaprep) - Click on **Authorize StackSimplify**
+- Authorize Terraform Cloud (hctaprep) - Click on **Authorize tflearning**
 - SSH Keypair (Optional): click on **Skip and Finish**
 
 ### Step-06: Import the Terraform Module from Github

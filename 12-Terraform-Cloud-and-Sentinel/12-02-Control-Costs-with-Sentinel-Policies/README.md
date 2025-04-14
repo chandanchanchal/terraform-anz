@@ -43,7 +43,7 @@ git commit -am "Sentinel Cost Control Policies Added in new folder"
 git push
 
 # Verify the same on Remote Repository
-https://github.com/stacksimplify/terraform-sentinel-policies.git
+https://github.com/tflearning/terraform-sentinel-policies.git
 ```
 
 ## Step-04: Add new Sentinel Policy Set in Terraform Cloud

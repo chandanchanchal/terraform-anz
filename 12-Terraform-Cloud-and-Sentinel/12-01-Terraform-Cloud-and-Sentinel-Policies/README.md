@@ -190,7 +190,7 @@ policy "restrict-s3-buckets" {
 ```t
 # Clone Github Repo
 git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
-git clone https://github.com/stacksimplify/terraform-sentinel-policies.git
+git clone https://github.com/tflearning/terraform-sentinel-policies.git
 ```
 
 ## Step-05-03: Copy files from terraform-sentinel-policies folder to local repo & Check-In Code
@@ -213,7 +213,7 @@ git commit -am "Sentinel Policies First Commit"
 git push
 
 # Verify the same on Remote Repository
-https://github.com/stacksimplify/terraform-sentinel-policies.git
+https://github.com/tflearning/terraform-sentinel-policies.git
 ```
 
 ## Step-06: Create Policy Sets in Terraform Cloud

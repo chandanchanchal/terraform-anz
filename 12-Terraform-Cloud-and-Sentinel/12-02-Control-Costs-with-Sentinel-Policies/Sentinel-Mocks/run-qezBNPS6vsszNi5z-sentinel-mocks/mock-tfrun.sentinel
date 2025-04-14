@@ -37,8 +37,8 @@ workspace = {
 	"name":        "terraform-cloud-demo1-internal",
 	"vcs_repo": {
 		"branch":             "",
-		"display_identifier": "stacksimplify/terraform-cloud-demo1-internal",
-		"identifier":         "stacksimplify/terraform-cloud-demo1-internal",
+		"display_identifier": "tflearning/terraform-cloud-demo1-internal",
+		"identifier":         "tflearning/terraform-cloud-demo1-internal",
 		"ingress_submodules": false,
 	},
 	"working_directory": "",

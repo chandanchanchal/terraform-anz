@@ -31,7 +31,7 @@
 ```t
 # Clone Github Repo
 git clone https://github.com/<YOUR_GITHUB_ID>/<YOUR_REPO>.git
-git clone https://github.com/stacksimplify/terraform-cloud-demo1.git
+git clone https://github.com/tflearning/terraform-cloud-demo1.git
 ```
 
 ## Step-05: Copy files from terraform-manifests to local repo & Check-In Code
@@ -69,7 +69,7 @@ git commit -am "TF Files First Commit"
 git push
 
 # Verify the same on Remote Repository
-https://github.com/stacksimplify/terraform-cloud-demo1.git
+https://github.com/tflearning/terraform-cloud-demo1.git
 ```
 
 ## Step-06: Sign-Up for Terraform Cloud - Free Account & Login
@@ -81,7 +81,7 @@ https://github.com/stacksimplify/terraform-cloud-demo1.git
 
 ## Step-07: Create Organization 
 - **Organization Name:** hcta-demo1
-- **Email Address:** stacksimplify@gmail.com
+- **Email Address:** tflearning@gmail.com
 - Click on **Create Organization**
 
 ## Step-08: Create New Workspace
@@ -94,10 +94,10 @@ https://github.com/stacksimplify/terraform-cloud-demo1.git
   - NEW WINDOW: **Authorize Terraform Cloud:** Click on **Authorize Terraform Cloud Button**
   - NEW WINDOW: **Install Terraform Cloud**
   - **Select radio button:** Only select repositories
-  - **Selected 1 Repository:** stacksimplify/terraform-cloud-demo1
+  - **Selected 1 Repository:** tflearning/terraform-cloud-demo1
   - Click on **Install**
 - **Choose a Repository**
-  - stacksimplify/terraform-cloud-demo1
+  - tflearning/terraform-cloud-demo1
 - **Configure Settings**
   - **Workspace Name:** terraform-cloud-demo1 (Whatever populated automically leave to defaults) 
   - **Advanced Settings:** leave to defaults 
