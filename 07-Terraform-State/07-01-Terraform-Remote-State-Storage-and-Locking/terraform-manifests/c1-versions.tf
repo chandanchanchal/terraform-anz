@@ -9,14 +9,14 @@ terraform {
   }
   # Adding Backend as S3 for Remote State Storage
   backend "s3" {
-    bucket = "terraform-tflearning"
+    bucket = "cc.remotestate.bucket"
     key    = "dev/terraform.tfstate"
     region = "us-east-1" 
-/*
+
     # Enable during Step-09     
     # For State Locking
     dynamodb_table = "terraform-dev-state-table"    
-*/    
+   
   }
 }
 
